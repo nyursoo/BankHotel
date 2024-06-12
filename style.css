@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+header{
+    background: #2A5B46;
+    color: white;
+    padding: 42px 0 50px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+    column-gap: 70px;
+    text-transform:uppercase;
+}
+.top{
+    background: #2A5B46;
+}
+.top__logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.top__right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top__btn{
+    width: 220px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 99px;
+    justify-content: center;
+    column-gap: 23px;
+    font-size: 22px;
+}
+.top__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+}
+.top__info p{
+    width: 30%;
+    color: white;
+    line-height: 162%;
+    opacity: 0.8;
+}
+.top__info h3{
+    color:  #fcd043;
+    text-transform: uppercase;
+}
+.banner__top{
+    background: url('img/space-copenhagen-the-stratford-architonic-rs-8-03-arcit18\ 1\ \(1\).png')center/cover no-repeat;
+    height: 588px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner__box{
+    width: 300px;
+    height: 100px;
+    background: #313F3850;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+    position: relative;
+}
+.banner__btn{
+    width: 300px;
+    height: 100px;
+    background: #fcd043;
+    font-size: 18px;
+    border: none;
+    font-weight: 500;
+}
+.banner{
+    background: #2A5B46;
+}
+.banner__box p::after{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 11px;
+    background: url('img/Vector\ 5\ \(1\).png')center/cover;
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.banner__box:first-child::after{
+content: '';
+display: block;
+height: 55px;
+width: 2px;
+background: #fffcf680;
+position: absolute;
+right: 0;
+}
+.banner__bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 40px;
+}
+.banner__bottom a{
+    color: #fcd043;
+    
+}
+.as__center h2{
+    position: absolute;
+    top: 75px;
+    font-size: 120px;
+    width: 350px;
+    text-align: end;
+    left: -249px;
+}
+.banner__right{
+    width: 240px;
+    text-align: end;
+}
+.as {
+    background: #2A5B46;
+    padding-top: 70px;
+}
+.as .container{
+    display: flex;
+    justify-content: space-between;
+}
+.as__center{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    row-gap: 20px;
+    position: relative;
+} 
+.as__right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.as__right::after{
+    content:"" ;
+    width:100px ;
+    height: 90px;
+    background: url(./img/label.png) center/cover ;
+    position: absolute;
+    left: -68px;
+    top: -68px;
+}
+
+.black{
+    color: black;
+    border: 1px solid black;
+}
+.rooms__top{
+    display: flex;
+    justify-content: space-between;
+}
+.rooms__top p{
+    width: 300px;
+font-weight: 400;
+font-size: 18px;
+text-transform: uppercase;
+}
+.rooms__btn{
+    display: flex;
+    justify-content: space-between;
+}
+.rooms__center{
+    width: 300px;
+}
+.rooms__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
